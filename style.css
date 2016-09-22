@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+header {
+  display: block;
+  height: 5vh;
+  overflow: auto;
+  background-color: lightblue;
+  color: red;
+  font-size: 24px;
+}
+
+.container {
+  height: 95vh;
+  display: flex;
+}
+
+pre {
+  background-color: #f8f8f8;
+}
+
+pre, textarea {
+  width: 50%;
+  font-family: monospace;
+  font-size: 24px;
+  color: #222;
+  margin: 0;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: 0;
+}
